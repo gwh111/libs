@@ -19,6 +19,7 @@
 		D8799C432408C45D0013F0C8 /* MoreCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8799C422408C45D0013F0C8 /* MoreCUITests.m */; };
 		D8799C552408C6DF0013F0C8 /* MoreC.m in Sources */ = {isa = PBXBuildFile; fileRef = D8799C512408C6DF0013F0C8 /* MoreC.m */; };
 		D8799C592408EC530013F0C8 /* ccs+MoreC.m in Sources */ = {isa = PBXBuildFile; fileRef = D8799C582408EC530013F0C8 /* ccs+MoreC.m */; };
+		D8799C5B2408F1020013F0C8 /* MoreC.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D8799C5A2408F1020013F0C8 /* MoreC.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		D8799C522408C6DF0013F0C8 /* MoreC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreC.h; sourceTree = "<group>"; };
 		D8799C572408EC530013F0C8 /* ccs+MoreC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ccs+MoreC.h"; sourceTree = "<group>"; };
 		D8799C582408EC530013F0C8 /* ccs+MoreC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ccs+MoreC.m"; sourceTree = "<group>"; };
+		D8799C5A2408F1020013F0C8 /* MoreC.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MoreC.podspec; sourceTree = "<group>"; };
 		FD389D9781A2372D1DBD6C74 /* libPods-MoreC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoreC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF69D36F8428DC3E832CF30E /* Pods-MoreC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoreC.debug.xcconfig"; path = "Target Support Files/Pods-MoreC/Pods-MoreC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,6 +105,7 @@
 		D8799C102408C45C0013F0C8 = {
 			isa = PBXGroup;
 			children = (
+				D8799C5A2408F1020013F0C8 /* MoreC.podspec */,
 				D8799C1B2408C45C0013F0C8 /* MoreC */,
 				D8799C362408C45D0013F0C8 /* MoreCTests */,
 				D8799C412408C45D0013F0C8 /* MoreCUITests */,
@@ -283,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8799C222408C45C0013F0C8 /* MoreC-prefix.pch in Resources */,
+				D8799C5B2408F1020013F0C8 /* MoreC.podspec in Resources */,
 				D8799C2D2408C45D0013F0C8 /* LaunchScreen.storyboard in Resources */,
 				D8799C2A2408C45D0013F0C8 /* Assets.xcassets in Resources */,
 				D8799C282408C45C0013F0C8 /* Main.storyboard in Resources */,
