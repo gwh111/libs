@@ -17,8 +17,8 @@
 		D8799C2D2408C45D0013F0C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8799C2B2408C45D0013F0C8 /* LaunchScreen.storyboard */; };
 		D8799C382408C45D0013F0C8 /* MoreCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8799C372408C45D0013F0C8 /* MoreCTests.m */; };
 		D8799C432408C45D0013F0C8 /* MoreCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8799C422408C45D0013F0C8 /* MoreCUITests.m */; };
-		D8799C552408C6DF0013F0C8 /* MoreLib.m in Sources */ = {isa = PBXBuildFile; fileRef = D8799C512408C6DF0013F0C8 /* MoreLib.m */; };
-		D8799C562408C6DF0013F0C8 /* MoreLibV.m in Sources */ = {isa = PBXBuildFile; fileRef = D8799C532408C6DF0013F0C8 /* MoreLibV.m */; };
+		D8799C552408C6DF0013F0C8 /* MoreC.m in Sources */ = {isa = PBXBuildFile; fileRef = D8799C512408C6DF0013F0C8 /* MoreC.m */; };
+		D8799C592408EC530013F0C8 /* ccs+MoreC.m in Sources */ = {isa = PBXBuildFile; fileRef = D8799C582408EC530013F0C8 /* ccs+MoreC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +57,10 @@
 		D8799C3E2408C45D0013F0C8 /* MoreCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoreCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8799C422408C45D0013F0C8 /* MoreCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoreCUITests.m; sourceTree = "<group>"; };
 		D8799C442408C45D0013F0C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D8799C512408C6DF0013F0C8 /* MoreLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreLib.m; sourceTree = "<group>"; };
-		D8799C522408C6DF0013F0C8 /* MoreLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreLib.h; sourceTree = "<group>"; };
-		D8799C532408C6DF0013F0C8 /* MoreLibV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreLibV.m; sourceTree = "<group>"; };
-		D8799C542408C6DF0013F0C8 /* MoreLibV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreLibV.h; sourceTree = "<group>"; };
+		D8799C512408C6DF0013F0C8 /* MoreC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreC.m; sourceTree = "<group>"; };
+		D8799C522408C6DF0013F0C8 /* MoreC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreC.h; sourceTree = "<group>"; };
+		D8799C572408EC530013F0C8 /* ccs+MoreC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ccs+MoreC.h"; sourceTree = "<group>"; };
+		D8799C582408EC530013F0C8 /* ccs+MoreC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ccs+MoreC.m"; sourceTree = "<group>"; };
 		FD389D9781A2372D1DBD6C74 /* libPods-MoreC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoreC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF69D36F8428DC3E832CF30E /* Pods-MoreC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoreC.debug.xcconfig"; path = "Target Support Files/Pods-MoreC/Pods-MoreC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -161,10 +161,10 @@
 		D8799C502408C6B90013F0C8 /* MoreC */ = {
 			isa = PBXGroup;
 			children = (
-				D8799C522408C6DF0013F0C8 /* MoreLib.h */,
-				D8799C512408C6DF0013F0C8 /* MoreLib.m */,
-				D8799C542408C6DF0013F0C8 /* MoreLibV.h */,
-				D8799C532408C6DF0013F0C8 /* MoreLibV.m */,
+				D8799C572408EC530013F0C8 /* ccs+MoreC.h */,
+				D8799C582408EC530013F0C8 /* ccs+MoreC.m */,
+				D8799C522408C6DF0013F0C8 /* MoreC.h */,
+				D8799C512408C6DF0013F0C8 /* MoreC.m */,
 			);
 			path = MoreC;
 			sourceTree = "<group>";
@@ -352,10 +352,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8799C562408C6DF0013F0C8 /* MoreLibV.m in Sources */,
 				D8799C252408C45C0013F0C8 /* ViewController.m in Sources */,
+				D8799C592408EC530013F0C8 /* ccs+MoreC.m in Sources */,
 				D8799C202408C45C0013F0C8 /* AppDelegate.m in Sources */,
-				D8799C552408C6DF0013F0C8 /* MoreLib.m in Sources */,
+				D8799C552408C6DF0013F0C8 /* MoreC.m in Sources */,
 				D8799C1D2408C45C0013F0C8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

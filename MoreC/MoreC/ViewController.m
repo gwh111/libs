@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ccs+MoreC.h"
 
 @interface ViewController ()
 
@@ -20,6 +21,10 @@
 
 - (void)cc_viewDidLoad {
 	 // Do any additional setup after loading the view.
+    
+    MoreC *moreC = ccs.moreC;
+    [moreC cc_setup];
+    [self.view addSubview:moreC.displayView];
 }
 
 @end
